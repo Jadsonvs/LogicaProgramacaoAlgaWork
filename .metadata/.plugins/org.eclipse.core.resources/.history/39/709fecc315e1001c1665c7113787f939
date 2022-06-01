@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Exercicio01 {
+	
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner (System.in);
+		
+		System.out.print("Digite o 1º número: ");
+		Double primeiroNumero = leitor.nextDouble();
+		
+		System.out.print("Digite a operação desejada [1-soma; 2-subtração; 3-multiplicação; 4-divisão]");
+		Integer operacao = leitor.nextInt();
+		
+		System.out.print("Digite o 2º número: ");
+		Double segundoNumero = leitor.nextDouble();
+		
+		Double calculo;
+		
+		Double total;
+		
+		if(operacao == 1) {
+			total = primeiroNumero + segundoNumero;
+		}
+		if(operacao == 2) {
+			total = primeiroNumero - segundoNumero;
+		}
+		if(operacao == 3) {
+			total = primeiroNumero * segundoNumero;
+		}
+		if(operacao == 4) {
+			total = primeiroNumero / segundoNumero;
+			System.out.println("Total: " + total);
+		}
+			
+	}
+
+}

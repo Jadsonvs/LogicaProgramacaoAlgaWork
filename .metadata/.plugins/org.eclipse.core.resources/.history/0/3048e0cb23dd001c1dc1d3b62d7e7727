@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class CalcularValorTroco {
+
+		public static void main(String[] args) {
+			
+			Scanner leitor = new Scanner(System.in);
+			
+			Double valorProduto = leitor.nextDouble();
+			
+			System.out.println("Valor do produto: " + valorProduto);
+		}
+}

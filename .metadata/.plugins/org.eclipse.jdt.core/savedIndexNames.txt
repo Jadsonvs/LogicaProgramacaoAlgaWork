@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+G:\Meu Drive\algaWorks\logicaProgramacaoJava\.metadata\.plugins\org.eclipse.jdt.core
+3871092777.index
+2444951743.index
+1865797976.index
+266310940.index
