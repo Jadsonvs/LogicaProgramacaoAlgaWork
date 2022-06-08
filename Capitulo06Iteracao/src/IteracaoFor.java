@@ -3,29 +3,34 @@ public class IteracaoFor {
 	
 	public static void main(String[] args) {
 		
-//		for(int i = 1; i<=5; i++) {/*FOR(expressão para iniciar o for OU uma variável;
-//							     expressão que retorna um valor Booleano, ela que
-//							     irá controlar quantas vezes será repetido o codigo, 
-//							     condição de parada;
-//							     expressão que será executada após cada volta do nosso
-//							     laço*/
+//		UTILIZAMOS O LAÇO FOR É PARA QUANDO TEMOS UM NUMERO DE INTERAÇÕES CONHECIDO
+		
+//		FOR(expressão para iniciar o for OU uma variável; expressão que retorna um valor Booleano,
+//		ela que irá controlar quantas vezes será repetido o codigo, condição de parada; expressão 
+//		que será executada após cada volta do nosso laço.
+		
+//		for(int i = 1; i<=5; i++) {
 //			System.out.println(i + ": Uma frase qualquer!");
 //		}
 		
-		/*Ao invés de ter uma variável com apenas uma valor, criamos uma variável Double do tipo
-		  array guardando 3 valores.*/
-		//Estrtura para criar um array:  Double[] nomeDaVariável = new Double [] {Valores que irei usar no array};	 
+		
+//		Ao invés de ter uma variável com apenas uma valor, criamos uma variável Double do tipo
+//		array guardando 3 valores.
+		
+//		Estrtura para criar um array:
+//		Double[] nomeDaVariável = new Double [] {Valores que irei usar no array};	 
+		
+//		Para acessar a informação da quantidade de itens dentro do array utilizamos apropriedade 
+//		.length que guarda esse número.
+		
+//		Para acessar os itens do array utilizamos o [] na frenta da variável e colocamos o nome da
+//		variável criada dentro da condição do FOR no caso o i -> [i] que mudaram de valor conforme
+//		o FOR é executado, assim acessaremos todos os valores.
 		
 //		Double[] carrinhoDeCompras = new Double [] {50.0, 51.0, 52.0};
 //		Double total =0.0;
-		
-		/* Para acessar a informação da quantidade de itens dentro do array utilizamos a
-		   propriedade .length que guarda esse número  */
-//		for(int i = 0; i < carrinhoDeCompras.length; i++) {
-//			
-//			/*Para acessar os itens do array utilizamos o [] na frenta da variável e 
-//			  colocamos o i [i] que mudaram de valor conforme o FOR é executado, assim
-//			  acessaremos todos o index/itens*/	 
+				
+//		for(int i = 0; i < carrinhoDeCompras.length; i++) {	 
 //			System.out.println("Iteração: " + i + ", Total: " + total);
 //			total = total + carrinhoDeCompras[i];	
 //		}
